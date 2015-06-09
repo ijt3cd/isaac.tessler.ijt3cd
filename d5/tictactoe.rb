@@ -28,7 +28,7 @@ while true
 
 	
 
-P1Turn=!P1Turn
+P1Turn=!!P1Turn
 count+=1
 if count==9
 	puts "Cat's game!"

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Userns</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Location</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @userns.each do |usern| %>
+      <tr>
+        <td><%= usern.nombre %></td>
+        <td><%= usern.location %></td>
+        <td><%= link_to 'Show', usern %></td>
+        <td><%= link_to 'Edit', edit_usern_path(usern) %></td>
+        <td><%= link_to 'Destroy', usern, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Usern', new_usern_path %>

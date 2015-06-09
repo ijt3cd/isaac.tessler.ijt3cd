@@ -1,0 +1,64 @@
+1. Data 
+	- Items that are in a user's shopping cart
+	- Items available for sale
+	- Departments
+	- Items that are in a user's wish list
+	- Featured items
+	- Item's Price
+	- Items's decription
+	- Username
+	- Shopping cart
+	- Wish list
+
+2. Models
+	- User
+	- Item
+	- Shopping cart
+	- Wish List
+
+3.
+	-User
+		* username
+		* address
+	-Item
+		* department
+		* featured
+		* price
+		* description
+		* Shopping carts it belongs in
+		* Wish lists it belongs in
+	-Shopping cart
+		* item's in user's shopping art
+	-Wish List
+		* item's in user's wish list
+
+4.  User
+		* Create a user account (anyone)
+		* Delete a user's account (user)
+		* Read user info (user)
+		* Edit account info (user) 
+	Item
+		* Add item (admin)
+		* Remove item (admin)
+		* Add item to shopping cart/wishlist (user)
+		* View item (anyone)
+	Shopping Cart
+		* Buy items (user)
+		* Read items (user)
+	Wish List
+		* Buy items (anyone)
+		* Read items (user)
+
+5. User has one shopping cart
+User has one wish list
+Wish list has many items
+Shopping cart has many items
+
+
+
+
+
+
+
+
+

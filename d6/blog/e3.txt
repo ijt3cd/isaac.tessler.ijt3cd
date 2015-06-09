@@ -1,0 +1,35 @@
+usr = User.new(name: 'Isaac', followers:19)
+usr.save
+
+user=User.find(2)
+
+User.find_by(name:'Isaac')
+
+User.find_by(followers:10)
+
+user.update_attributes(name:'Ben')
+user.save
+
+tweet = Tweet.create(user_id: 2, body: 'Sup')
+
+tweet.update_attributes(body:'new body')
+
+tweet.destroy()
+
+
+HARDER NOW
+
+
+for i in 1..10
+   User.create(name:i.to_s)
+end
+
+User.destroy_all
+
+for i in 1..10
+   Tweet.create(body:i.to_s)
+end
+
+Tweet.update_all(body:"Ruby is fat")
+
+Tweet.find(4).update_attributes(body:"Ruby is getting even fatter")

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <title>Isaac Tessler</title>
+  <link href="stylesheets/personalStyle.css" rel="stylesheet">
+</head>
+<body>
+<header class="stays">
+
+<ul>
+  <li><a href="./home.html">HOME</a></li>
+  <li><a href="./projects">PROJECTS</a></li>
+  <li><a href="./contact">CONTACT</a></li>
+  <li><a href="./info">INFO</a></li>
+</ul>
+
+
+
+<!--
+<li class="jank">
+HOME
+</li>
+  ----------
+  <li class="jank">
+    <img src="./images/homeIcon.png">
+  </li> 
+  ----------
+  <li class="jank">
+    PROJECTS
+  </li>
+  <li class="jank">
+    CONTACT
+  </li>
+  -->
+</header>
+  <p class = "batts">Isaac Tessler</p>
+  <img src="./images/GMr3W4N.jpg" class="broerd">
+  <div class="yo" id="contact">
+   <h1>
+   Email: 
+   Facebook:
+   Github:
+  </h1>
+<!--
+</div>
+<div class="twooh">
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  I'm Isaac Tessler, a rising third year at the University of Virginia (Originally from Massachusetts). I started computer science my second semester at UVA and became a TA for their intro to CS class my third. 
+</p>
+
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Programming is a blast. Solving coding puzzles is my jam. On top of that, it makes my career choices plentiful. I'll be able to pick what I want to do and still get paid well enough to pay for this trip. >.>
+</p>
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  I have very little international experience and didn't expect to get any until well after college. That obviously changed. Cape Town is the coolest looking city I've ever seen, 8 weeks is more than enough to get immersed, and all the side trips are going to rock. Biggest anticipations are exploring Cape Town with you all, and maybe some rock climbing.
+  <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Now I talk about me! I'm a fencer (sabrist), a climber, gamer, ultimate player, javelin thrower and a bunch of other stuff! I've biked over 100 miles in a day, hiked dozens of mountains, and am part of three group world records. 
+  </p>
+  <p>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; That's enough stuff, can't wait to see you all in Cape Town!
+ </p>
+</p>
+-->
+</div>
+</body>

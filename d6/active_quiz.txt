@@ -1,0 +1,16 @@
+1. Collection of data that a site stores.
+2. Database table is a model of each model. Like a menu
+3. _ID_|_Content_|_TweeterID_|_Timestamp_
+4. Planning stage for making databases.
+5. Standardized framework for modeling and model tables
+6. table for writing for humans, Active record for computer scientists
+
+
+
+
+
+
+
+
+
+justgetflux.com
