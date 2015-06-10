@@ -1,0 +1,29 @@
+<%require 'date' %>
+
+<h1>Petitions Index</h1>
+
+<ol>
+
+<% @petitions.map do |petition| %>
+<li>Title: 
+<br/>
+<%= petition["title"] %>
+<br/><br/>Body: <br/>
+<%= petition["body"]%>
+<br/><br/>URL: <br/>
+<%= petition["url"]%>
+<br/><br/>Deadline: <br/>
+<%= "#{DateTime.strptime(petition["deadline"].to_s, '%s')}"%>
+<br/><br/>Status: <br/>
+<%= petition["status"]%>
+<br/><br/>Created: <br/>
+<%= "#{DateTime.strptime(petition["created"].to_s, '%s')}"%>
+<br/><br/>Signature Count: <br/>
+<%= petition["signatureCount"]%></li>
+<br/>
+<% end %>
+
+</ol>
+
+
+
