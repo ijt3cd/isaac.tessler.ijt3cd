@@ -1,0 +1,8 @@
+index
+<% @stories.each do |story| %>
+
+<%= story.title %>
+<%= story.user.name %>
+<%= story.category.name %>
+
+<% end %>
