@@ -9,4 +9,7 @@
 
 users = User.create([{ name: 'Isaac', karma: 230}, { name: 'Ben', karma: 229},{ name: 'Rebecca', karma: 200},{ name: 'Jacob', karma: 200}])
 categories = Category.create([{name: 'funny'},{name: 'jokes'},{name: 'iama'}])
-stories = Story.create([{ title: 'uno', body: 'dos', url: 'tres', user_id: 1, category_id: 2},{ title: 'seis', body: 'siete', url: 'ocho', user_id: 2, category_id: 3}])
+stories = Story.create([{ title: 'uno', body: 'dos', url: 'tres',  user: User.last},{ title: 'seis', body: 'siete', url: 'ocho',  user: User.last}])
+
+
+

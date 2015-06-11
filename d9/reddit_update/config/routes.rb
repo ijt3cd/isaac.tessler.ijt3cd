@@ -9,9 +9,12 @@ Rails.application.routes.draw do
   get 'stories' => 'stories#index'
   get 'stories/new' => 'stories#new'
   get 'stories/:id' => 'stories#show'
+
   post 'stories' => 'stories#create'
 
+
   get 'users/:id' => 'users#show'
+
 
   get 'categories/:id' => 'categories#show'
 
